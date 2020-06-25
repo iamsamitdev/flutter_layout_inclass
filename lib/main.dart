@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout/column_widget_layout.dart';
 import 'package:flutter_layout/container_widget_layout.dart';
+import 'package:flutter_layout/row_widget_layout.dart';
 import 'center_widget_layout.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple
       ),
-      home: ContainerWidgetPage(),
+      home: ColumnWidgetPage(),
     );
   }
 }
