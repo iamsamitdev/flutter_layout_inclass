@@ -3,6 +3,7 @@ import 'package:flutter_layout/column_widget_layout.dart';
 import 'package:flutter_layout/container_widget_layout.dart';
 import 'package:flutter_layout/expanded_widget_layout.dart';
 import 'package:flutter_layout/row_widget_layout.dart';
+import 'package:flutter_layout/sizedbox_widget_layout.dart';
 import 'package:flutter_layout/stack_widget_layout.dart';
 import 'center_widget_layout.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple
       ),
-      home: ExpandedWidgetPage(),
+      home: SizedBoxWidgetPage(),
     );
   }
 }
